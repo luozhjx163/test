@@ -5,4 +5,5 @@ before_install:
  - chmod +x mvnw
 
 script:
+  - pwd && ls -la
   - mvn package
